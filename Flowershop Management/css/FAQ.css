@@ -1,0 +1,95 @@
+body
+{
+	background-color:rgb(255,250,205);
+	background-size:cover;
+	color:rgb(0,0,0);
+	font-size:20px;
+	font-family:serif;
+	background-image:url("images/background-faq.jpg");
+	background-size:cover;
+}
+
+.head{
+	width: auto;
+	position: relative;
+	height: 50px;
+	top: 50px;
+}
+.image
+{
+	background-image:url("images/faq.jpg");
+	background-size:cover;
+	height:300px;
+	width:100%;
+	float:right;
+	position:relative;
+	top:50px;
+	bottom: 50px;
+	border-radius:20px;
+}
+.oli{
+	display: inline-block;
+}
+
+.navigation{
+  height: 50px;
+  width: 100%;
+  line-height: 100px;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  color: black;
+  text-align: center;
+	font-size: 18px;
+
+}
+.navigation ul{
+  position: relative;
+  margin-right: 60px;
+  line-height: 5px;
+
+
+}
+.navigation ul li{
+  list-style-type: none;
+  display: inline-block;
+}
+.navigation ul li a{
+  padding: 22px;
+  text-decoration: none;
+  color: black;
+  display: block;
+
+}
+.navigation ul li:hover{
+  background: white;
+  transition: all 0.40s;
+  width: 150px;
+}
+.navigation ul li:hover ul{
+  display:block;
+
+}
+.navigation ul ul{
+  display: none;
+  width: 150px;
+  position: absolute;
+  text-align: left;
+	padding: 0;
+	margin: 0;
+}
+.navigation ul li li{
+  background: #332f2f;
+  display: block;
+
+}
+.navigation ul li li a{
+  padding: 15px;
+	color: white;
+
+}
+.navigation ul li li:hover{
+  background: gray;
+  transition: all 0.40s;
+	color: black;
+}

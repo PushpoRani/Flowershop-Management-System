@@ -1,0 +1,251 @@
+body{
+  text-align: center;
+}
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.full{
+  width: 100%;
+  height:2650px;
+  background: white;
+  background-size: cover;
+}
+.heading{
+  width: 100%;
+  height:250px;
+  background-image: url('images/backgroundcolor.jpg');
+  background-size: cover;
+}
+.headtittle{
+  background: black;
+  height: 100px;
+  width: 100%;
+  line-height: 50px;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  position: absolute;
+  top: 150px;
+  color: #fefeff;
+  font-family: Kristen ITC;
+  font-weight: bold;
+}
+.marq{
+  width: 30%;
+  height: 30px;
+  position: relative;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fefeff;
+}
+
+.navigation{
+  height: 50px;
+  width: 1100px;
+  line-height: 100px;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  color: white;
+  text-align: center;
+
+}
+.navigation ul{
+  position: relative;
+  margin-right: 60px;
+  line-height: 5px;
+
+
+}
+.navigation ul li{
+  list-style-type: none;
+  display: inline-block;
+}
+.navigation ul li a{
+  padding: 22px;
+  text-decoration: none;
+  color: white;
+  display: block;
+
+}
+.navigation ul li:hover{
+  background:  rgba(82, 47, 210, 0.5);
+  transition: all 0.40s;
+  width: 150px;
+
+}
+.navigation ul li:hover ul{
+  display:block;
+
+}
+.navigation ul ul{
+  display: none;
+  width: 150px;
+  position: absolute;
+  text-align: left;
+}
+.navigation ul li li{
+  background: black;
+  display: block;
+}
+.navigation ul li li a{
+  padding: 15px;
+
+}
+.navigation ul li li:hover{
+  background:  rgba(82, 47, 210, 0.5);
+  transition: all 0.40s;
+}
+
+.part1{
+  width: 1100px;
+  height: 2350px;
+  position: relative;
+  margin-top: 20px;
+  background: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tittle{
+  background: black;
+  height: 60px;
+  width: 100%;
+  line-height: 50px;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  position: relative;
+  color: white;
+  font-family: Kristen ITC;
+  margin-top: 10px;
+}
+
+.stage{
+  width:100%;
+  height: 700px;
+  position: relative;
+  background: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.car{
+  width:100%;
+  height: 700px;
+  position: relative;
+  background: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.room{
+  width:100%;
+  height: 700px;
+  position: relative;
+  background: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  width: 100%;
+	clear: both; /* Clear creates new styles for the next row */
+	padding: 0px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  text-align: center;
+}
+.image{
+  width: 100%;
+  height: 70%;
+  text-align: center;
+}
+.details{
+  width: 100%;
+  height: 30%;
+  text-align: center;
+  font-size: 10px;
+}
+.one{
+	width: 30%;
+  height: 100%;
+	float:left;
+  background-color: white;
+  font-family: Lucida Handwriting;
+  font-size: 12px;
+  text-align: center;
+  color: black;
+margin-left: 15px;
+  margin-right: 10px;
+}
+.two{
+	width: 30%;
+  height: 100%;
+	float:left;
+  background-color: white;
+  font-family: Lucida Handwriting;
+  font-size: 12px;
+  text-align: center;
+  margin-left: 15px;
+  color: black;
+
+    margin-right: 10px;
+}
+.three{
+	width: 30%;
+  height: 100%;
+	float:left;
+  background-color: white;
+  font-family: Lucida Handwriting;
+  font-size: 12px;
+  text-align: center;
+  color: black;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+.one:hover{
+  border-width: thin;
+  border-style: solid;
+}
+.two:hover{
+  border-width: thin;
+  border-style: solid;
+}
+.three:hover{
+  border-width: thin;
+  border-style: solid;
+}
+.btncart{
+  padding: 5px 30px;
+	cursor: pointer;
+	color: black;
+	border: 3px;
+	border-style:double;
+	background-color: transparent;
+	margin-bottom: 20px;
+	font-family:Copperplate Gothic Bold,sans-serif;
+  font-weight: bold;
+	font-size:12px;
+}
+.btncart:hover{
+  background: rgb(82, 47, 210);
+	transition:all 0.45s;
+	opacity:0.7;
+	filter:alpha (opacity=70);
+}
+
+
+.last{
+  width: 100%;
+  height: 50px;
+  float: left;
+  text-align: center;
+  background: rgba(82, 47, 210, 0.5);
+  color: white;
+}
